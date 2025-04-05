@@ -1,0 +1,345 @@
+/* Center the whole page */
+
+.product-page {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Product Section: Flexbox layout */
+
+.product-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    width: 100%;
+}
+
+
+/* Image Gallery */
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-gallery img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Product Info (Placed to the right of the image) */
+
+.product-info {
+    flex: 1;
+    text-align: left;
+    max-width: 500px;
+}
+
+.product-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #d32f2f;
+    margin: 10px 0;
+}
+
+.product-sizes {
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+
+/* Product Description */
+
+.product-description {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.size-container {
+    display: flex;
+    gap: 10px;
+}
+
+.size-selector {
+    height: 30px;
+    margin-top: 20px;
+}
+
+
+/* Reviews Section (Reduced height) */
+
+.reviews-section {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 30px;
+    padding: 20px;
+    border-top: 2px solid #e0e0e0;
+    min-height: 150px;
+}
+
+.reviews-section h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+
+/* Individual Review */
+
+.review {
+    background: #f1efef;
+    padding: 5px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border-left: 4px solid #222;
+}
+
+.reviewer-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 0px;
+}
+
+.review-comment {
+    font-size: 16px;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 1px;
+}
+
+.defalt-p {
+    font-size: 16px;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 1px;
+}
+
+
+/* Star Rating */
+
+.review-rating {
+    display: flex;
+    align-items: center;
+}
+
+.review .star {
+    color: #f39c12;
+    font-size: 18px;
+    margin-right: 3px;
+}
+
+
+/* Review Form */
+
+.review-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.review-form input,
+.review-form textarea {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.review-form button {
+    background-color: #222;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.review-form button:hover {
+    background-color: #333;
+}
+
+
+/* Social Media Share Section */
+
+.social-share {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #555;
+    transition: color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+    color: #000;
+    transform: scale(1.2);
+}
+
+.share-btn {
+    background: #222;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.share-btn:hover {
+    background: #333;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 1024px) {
+    .product-page {
+        padding-top: 80px;
+        margin-left: 90px;
+    }
+    .product-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .image-gallery {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        width: 100%;
+        max-width: 400px;
+        scroll-snap-type: x mandatory;
+        scroll-padding-left: 0px;
+        scrollbar-width: none;
+        scroll-behavior: smooth;
+        position: relative;
+    }
+    .image-gallery::-webkit-scrollbar {
+        display: none;
+    }
+    .image-gallery img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-title {
+        font-size: 26px;
+        margin-top: 20px;
+    }
+    /* Slider Container */
+    .image-gallery {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-padding-left: 0px;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        gap: 0px;
+        scroll-behavior: smooth;
+    }
+    .image-gallery::-webkit-scrollbar {
+        display: none;
+    }
+    .image-gallery img {
+        flex: 0 0 100%;
+        scroll-snap-align: start;
+        border-radius: 10px;
+    }
+    .product-description,
+    .product-price,
+    .product-sizes {
+        font-size: 16px;
+    }
+    .size-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .size-selector {
+        margin-top: -25px;
+        margin-bottom: 25px;
+    }
+    .social-share {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .social-icon {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-page {
+        padding: 20px;
+        padding-top: 90px;
+    }
+    .product-title {
+        font-size: 22px;
+    }
+    .reviews-section {
+        padding: 10px;
+    }
+    .review {
+        padding: 5px;
+    }
+    .social-share {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .share-btn {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .social-icon {
+        font-size: 20px;
+    }
+}

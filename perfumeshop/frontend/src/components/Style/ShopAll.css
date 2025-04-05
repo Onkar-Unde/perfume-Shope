@@ -1,0 +1,46 @@
+/* src/Style/ImageGallery.css */
+
+
+/* Center images in a grid */
+
+.image-gallery-con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+/* Style individual images */
+
+.gallery-image {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+/* Hover effect */
+
+.gallery-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* If no images available */
+
+.no-images {
+    text-align: center;
+    color: #888;
+}
+
+.gallery-fallback {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}

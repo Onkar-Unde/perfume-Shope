@@ -1,0 +1,101 @@
+[{
+        "name": "CEO Man Intense Perfume",
+        "description": "A bold and sophisticated fragrance designed for the modern man, exuding confidence and charisma.",
+        "price": 849,
+        "images": [
+            "https://bellavitaluxury.co.in/cdn/shop/files/DarkOUD-01.jpg?v=1714556164&width=1780",
+            "https://bellavitaluxury.co.in/cdn/shop/files/OUDGold-01.jpg?v=1714556714&width=500"
+        ],
+        "sizes": ["50ml", "100ml", "200ml"]
+    },
+    {
+        "name": "White Oud Unisex Perfume",
+        "description": "An enchanting blend of oud and floral notes, suitable for both men and women seeking a unique scent.",
+        "price": 575,
+        "images": [
+            "https://bellavitaluxury.co.in/cdn/shop/files/Narco-00.jpg?v=1728290792&width=500",
+            "https://bellavitaluxury.co.in/cdn/shop/files/NightFever-00.jpg?v=1728289800&width=500"
+        ],
+        "sizes": ["50ml", "100ml", "200ml"]
+    },
+    {
+        "name": "Luxury Perfume Gift Set For Men",
+        "description": "A curated set of four distinct fragrances, perfect for the discerning gentleman.",
+        "price": 565,
+        "images": [
+            "https://bellavitaluxury.co.in/cdn/shop/files/1_a0550f57-85dd-49a8-9611-3667f31d416c.jpg?v=1714556293&width=500",
+            "https://bellavitaluxury.co.in/cdn/shop/files/Him_HerGiftSet-00.jpg?v=1722839807&width=500"
+        ],
+        "sizes": ["50ml", "100ml", "200ml"]
+    },
+    {
+        "name": "Luxury Unisex Perfume Gift Set",
+        "description": "A versatile collection of four fragrances suitable for any occasion, designed for both men and women.",
+        "price": 565,
+        "images": [
+            "https://bellavitaluxury.co.in/cdn/shop/files/Work-_-play-combo.jpg?v=1696229362&width=500",
+            "https://bellavitaluxury.co.in/cdn/shop/files/1_effe5c21-48b0-46ca-83d8-14cc899eaa28.jpg?v=1714556426&width=500"
+        ],
+        "sizes": ["50ml", "100ml", "200ml"]
+    },
+    {
+        "name": "CEO Man Perfume",
+        "description": "An invigorating scent that embodies leadership and ambition, tailored for the aspiring CEO.",
+        "price": 499,
+        "images": [
+            "https://bellavitaluxury.co.in/cdn/shop/files/BestOfMenPerfumeCombo-100mlX3.jpg?v=1696225760&width=500",
+            "https://bellavitaluxury.co.in/cdn/shop/files/1_52eab4af-ff03-4003-9d93-0375e928d242.jpg?v=1714555089&width=500"
+        ],
+        "sizes": ["50ml", "100ml", "200ml"]
+    },
+    {
+        "name": "Glam Woman Perfume",
+        "description": "A dazzling fragrance that captures the essence of glamour and elegance for the modern woman.",
+        "price": 499,
+        "images": [
+            "https://bellavitaluxury.co.in/cdn/shop/files/Him_HerGiftSet-00.jpg?v=1722839807&width=500",
+            "https://bellavitaluxury.co.in/cdn/shop/files/1_152c85d7-a3b0-4a5b-8b7c-af0a1fe1bf0d.jpg?v=1714556075&width=500"
+        ],
+        "sizes": ["50ml", "100ml", "200ml"]
+    },
+    {
+        "name": "Oud Parfum Unisex",
+        "description": "A rich and captivating oud fragrance that appeals to both men and women seeking depth and mystery.",
+        "price": 599,
+        "images": [
+            "https://bellavitaluxury.co.in/cdn/shop/files/Hot-_-classy-2_2.jpg?v=1707985809&width=500",
+            "https://bellavitaluxury.co.in/cdn/shop/files/2_82112878-5c8c-43f6-abcb-1cf84d8688ac.jpg?v=1714556924&width=500"
+        ],
+        "sizes": ["50ml", "100ml", "200ml"]
+    },
+    {
+        "name": "Fresh Unisex Perfume",
+        "description": "A light and refreshing scent that invigorates the senses, perfect for daily wear by anyone.",
+        "price": 499,
+        "images": [
+            "https://bellavitaluxury.co.in/cdn/shop/files/0.jpg?v=1715954185&width=500",
+            "https://bellavitaluxury.co.in/cdn/shop/files/2_68104b85-bc38-41f9-94ca-9db1985ace26.jpg?v=1712926728&width=500"
+        ],
+        "sizes": ["50ml", "100ml", "200ml"]
+    },
+    {
+        "name": "Date Woman Perfume",
+        "description": "An alluring fragrance designed to make every date night unforgettable, exuding charm and allure.",
+        "price": 499,
+        "images": [
+            "https://bellavitaluxury.co.in/cdn/shop/files/White-Oud-Shower-Gel500ml_White-Oud-100mlperfume-01_3dd2bace-009b-4d27-ae77-c1804bf00dac.jpg?v=1719488641&width=500",
+            "https://bellavitaluxury.co.in/cdn/shop/files/Skai-Showergel-500ml_Skai100ml-Perfume-01.jpg?v=1719486947&width=500"
+        ],
+        "sizes": ["50ml", "100ml", "200ml"]
+    },
+    {
+        "name": "Senorita Woman Perfume",
+        "description": "A vibrant and playful scent that captures the spirit of a confident and lively woman.",
+        "price": 499,
+        "images": [
+            "https://bellavitaluxury.co.in/cdn/shop/files/Taaj-Gold-Oud-Attar-_-Taaj-Ameer-Attar-01.jpg?v=1719489244&width=500",
+            "https://bellavitaluxury.co.in/cdn/shop/files/Taaj-00_f215dffb-5405-454d-8cd7-897f2c4f4ecb.jpg?v=1715668432&width=500"
+        ],
+        "sizes": ["50ml", "100ml", "200ml"]
+    }
+]
